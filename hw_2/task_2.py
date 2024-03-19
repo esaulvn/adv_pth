@@ -22,10 +22,4 @@ with open('task_2.tex', 'w') as file:
 process = subprocess.Popen([pdflatex_path, '-interaction=nonstopmode', '-output-directory=.', '-jobname=task_2', 'task_2.tex'],
                            stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
-
 output, error = process.communicate()
-
-if process.returncode == 0:
-    print('PDF generated')
-else:
-    print('Error occurred:', error.decode('utf-8'))
