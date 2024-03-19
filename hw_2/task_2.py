@@ -9,16 +9,17 @@ example = [['Machine ID', 'Type', 'Manufacturer', 'Production Year'],
 
 latex = '''
 \\documentclass{article}
+\\usepackage{graphicx}
 \\begin{document}
 '''
 latex += LatexGenerator.generate_table(example)
-latex += LatexGenerator.generate_image(image_path='/img.png')
+latex += LatexGenerator.generate_image(image_path='img.png')
 latex += '\n\\end{document}'
 
-with open('file.tex', 'w') as file:
+with open('task_2.tex', 'w') as file:
     file.write(latex)
 
-process = subprocess.Popen([pdflatex_path, '-interaction=nonstopmode', '-output-directory=.', '-jobname=task_2', 'file.tex'],
+process = subprocess.Popen([pdflatex_path, '-interaction=nonstopmode', '-output-directory=.', '-jobname=task_2', 'task_2.tex'],
                            stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
 
