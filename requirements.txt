@@ -1,2 +1,6 @@
 latex_generator_2
 setuptools
+numpy
+threading
+multiprocessing
+time
