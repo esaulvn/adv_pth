@@ -1,0 +1,36 @@
+Threads n_jobs: 1 time: 0.4534627
+Processes n_jobs: 1 time: 0.6652662999999999
+
+Threads n_jobs: 2 time: 0.545798
+Processes n_jobs: 2 time: 0.5051496
+
+Threads n_jobs: 3 time: 0.9191305999999999
+Processes n_jobs: 3 time: 0.4785085000000002
+
+Threads n_jobs: 4 time: 0.5402680000000002
+Processes n_jobs: 4 time: 0.5052566000000001
+
+Threads n_jobs: 5 time: 0.4787832999999999
+Processes n_jobs: 5 time: 0.41673009999999966
+
+Threads n_jobs: 6 time: 0.5216672999999998
+Processes n_jobs: 6 time: 0.6378223999999992
+
+Threads n_jobs: 7 time: 1.0095286999999997
+Processes n_jobs: 7 time: 0.5611927999999997
+
+Threads n_jobs: 8 time: 0.49379489999999926
+Processes n_jobs: 8 time: 0.5376096999999991
+
+Threads n_jobs: 9 time: 0.49294309999999975
+Processes n_jobs: 9 time: 0.774348100000001
+
+Threads n_jobs: 10 time: 0.5510298000000002
+Processes n_jobs: 10 time: 0.8758438999999996
+
+Threads n_jobs: 11 time: 0.5974748999999999
+Processes n_jobs: 11 time: 0.795134599999999
+
+Threads n_jobs: 12 time: 0.5412759000000005
+Processes n_jobs: 12 time: 0.7486104999999998
+
